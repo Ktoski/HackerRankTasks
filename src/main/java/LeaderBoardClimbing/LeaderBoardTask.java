@@ -18,7 +18,7 @@ public class LeaderBoardTask {
         Arrays.stream(ranks).forEach(elem -> System.out.println(elem));
     }
 
-    
+
     private List<Score> mapScoresToRanks(int [] scores){
 
         List<Score> board = new ArrayList<>();
