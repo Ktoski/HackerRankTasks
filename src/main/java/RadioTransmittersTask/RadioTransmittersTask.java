@@ -13,7 +13,7 @@ public class RadioTransmittersTask {
         while(i <  sortedHausesLocations.length ){
 
             numOfTransmitters++;
-            int currentOriginLocation = sortedHausesLocations[i];   //2
+            int currentOriginLocation = sortedHausesLocations[i];
             boolean isInRange = true;
             while(isInRange && i < sortedHausesLocations.length){
                 i++;
