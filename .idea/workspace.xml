@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c85574c5-debf-4f55-9745-7824f780f6e1" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/BinaryTree/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BinaryTree/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BinaryTree/TreesTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BinaryTree/UniquePath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RadioTransmittersTask/RadioTransmittersTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RadioTransmittersTask/RadioTransmittersTask.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,11 +50,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Pawel1\IdeaProjects\HackerRankTasks\src\main\java\EncryptionTask" />
       <recent name="C:\Users\Pawel1\IdeaProjects\HackerRankTasks\src\main\java\RadioTransmittersTask" />
       <recent name="C:\Users\Pawel1\IdeaProjects\HackerRankTasks\src\main\java\LeaderBoardClimbing" />
       <recent name="C:\Users\Pawel1\IdeaProjects\HackerRankTasks\src\main\java\ScheduleAndBreaksTask" />
       <recent name="C:\Users\Pawel1\IdeaProjects\HackerRankTasks\src\main\java\CuttingTreesTask" />
-      <recent name="C:\Users\Pawel1\IdeaProjects\HackerRankTasks\src\main\java\ShufflingTask" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -65,7 +69,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EncryptionTest.test1">
+  <component name="RunManager" selected="JUnit.TreesTests">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -74,23 +78,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CuttingTreesTask.CuttingTreesTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HackerRankTasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CuttingTreesTask.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="CuttingTreesTask" />
-      <option name="MAIN_CLASS_NAME" value="CuttingTreesTask.CuttingTreesTask" />
-      <option name="METHOD_NAME" value="CuttingTreesTask" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -163,6 +150,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TreesTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HackerRankTasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BinaryTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="BinaryTree" />
+      <option name="MAIN_CLASS_NAME" value="BinaryTree.TreesTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -189,19 +192,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.CuttingTreesTask.CuttingTreesTask" />
       <item itemvalue="JUnit.ScheduleTaskTest.test1" />
       <item itemvalue="JUnit.LeaderBoardTask.testLeaderBoard" />
       <item itemvalue="JUnit.RadioTransmittersTest.test1" />
       <item itemvalue="JUnit.EncryptionTest.test1" />
+      <item itemvalue="JUnit.TreesTests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TreesTests" />
         <item itemvalue="JUnit.EncryptionTest.test1" />
         <item itemvalue="JUnit.RadioTransmittersTest.test1" />
         <item itemvalue="JUnit.LeaderBoardTask.testLeaderBoard" />
         <item itemvalue="JUnit.ScheduleTaskTest.test1" />
-        <item itemvalue="JUnit.CuttingTreesTask.CuttingTreesTask" />
       </list>
     </recent_temporary>
   </component>
@@ -218,44 +221,14 @@
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="RadioTransmittersTest_test1 - 2019.08.18 at 16h 33m 38s.xml">
-      <configuration name="RadioTransmittersTest.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RadioTransmittersTest_test1 - 2019.08.18 at 16h 34m 14s.xml">
-      <configuration name="RadioTransmittersTest.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RadioTransmittersTest_test1 - 2019.08.18 at 16h 34m 31s.xml">
-      <configuration name="RadioTransmittersTest.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RadioTransmittersTest_test1 - 2019.08.18 at 16h 34m 44s.xml">
-      <configuration name="RadioTransmittersTest.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RadioTransmittersTest_test1 - 2019.08.18 at 16h 35m 49s.xml">
-      <configuration name="RadioTransmittersTest.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ScheduleTaskTest_test1 - 2019.07.31 at 21h 04m 50s.xml">
-      <configuration name="ScheduleTaskTest.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ScheduleTaskTest_test1 - 2019.07.31 at 21h 05m 15s.xml">
-      <configuration name="ScheduleTaskTest.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ScheduleTaskTest_test1 - 2019.07.31 at 21h 05m 27s.xml">
-      <configuration name="ScheduleTaskTest.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShufflingTask_test - 2019.05.18 at 14h 32m 46s.xml">
-      <configuration name="ShufflingTask.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShufflingTask_test - 2019.05.18 at 14h 38m 13s.xml">
-      <configuration name="ShufflingTask.test" configurationId="JUnit" />
-    </history-entry>
-  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
