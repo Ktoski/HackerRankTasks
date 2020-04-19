@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c85574c5-debf-4f55-9745-7824f780f6e1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/BinaryTree/BinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BinaryTree/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BinaryTree/TreesTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BinaryTree/UniquePath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RoverTask/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RoverTask/Coordinates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RoverTask/Directions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RoverTask/InstructionsSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RoverTask/RoverTaskTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RoverTask/RoverUnit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RoverTask/interfaces/InstructionSenderInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RoverTask/interfaces/RoverManipulationInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RoverTask/rover_task.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,19 +48,19 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="add_unversioned_files" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/EncryptionTask" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/RoverTask" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Pawel1\IdeaProjects\HackerRankTasks\src\main\java\RoverTask" />
       <recent name="C:\Users\Pawel1\IdeaProjects\HackerRankTasks\src\main\java\EncryptionTask" />
       <recent name="C:\Users\Pawel1\IdeaProjects\HackerRankTasks\src\main\java\RadioTransmittersTask" />
       <recent name="C:\Users\Pawel1\IdeaProjects\HackerRankTasks\src\main\java\LeaderBoardClimbing" />
       <recent name="C:\Users\Pawel1\IdeaProjects\HackerRankTasks\src\main\java\ScheduleAndBreaksTask" />
-      <recent name="C:\Users\Pawel1\IdeaProjects\HackerRankTasks\src\main\java\CuttingTreesTask" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -69,7 +75,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TreesTests">
+  <component name="RunManager" selected="JUnit.RoverTaskTest">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -99,23 +105,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeaderBoardTask.testLeaderBoard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HackerRankTasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LeaderBoardClimbing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="LeaderBoardClimbing" />
-      <option name="MAIN_CLASS_NAME" value="LeaderBoardClimbing.LeaderBoardTask" />
-      <option name="METHOD_NAME" value="testLeaderBoard" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RadioTransmittersTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HackerRankTasks" />
       <extension name="coverage">
@@ -133,17 +122,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScheduleTaskTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RoverTaskTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HackerRankTasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ScheduleAndBreaksTask.*" />
+          <option name="PATTERN" value="RoverTask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ScheduleAndBreaksTask" />
-      <option name="MAIN_CLASS_NAME" value="ScheduleAndBreaksTask.ScheduleTaskTest" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="RoverTask" />
+      <option name="MAIN_CLASS_NAME" value="RoverTask.RoverTaskTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RoverTaskTest.firstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HackerRankTasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RoverTask.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="RoverTask" />
+      <option name="MAIN_CLASS_NAME" value="RoverTask.RoverTaskTest" />
+      <option name="METHOD_NAME" value="firstTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -192,19 +197,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.ScheduleTaskTest.test1" />
-      <item itemvalue="JUnit.LeaderBoardTask.testLeaderBoard" />
       <item itemvalue="JUnit.RadioTransmittersTest.test1" />
       <item itemvalue="JUnit.EncryptionTest.test1" />
       <item itemvalue="JUnit.TreesTests" />
+      <item itemvalue="JUnit.RoverTaskTest.firstTest" />
+      <item itemvalue="JUnit.RoverTaskTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RoverTaskTest" />
+        <item itemvalue="JUnit.RoverTaskTest.firstTest" />
         <item itemvalue="JUnit.TreesTests" />
         <item itemvalue="JUnit.EncryptionTest.test1" />
         <item itemvalue="JUnit.RadioTransmittersTest.test1" />
-        <item itemvalue="JUnit.LeaderBoardTask.testLeaderBoard" />
-        <item itemvalue="JUnit.ScheduleTaskTest.test1" />
       </list>
     </recent_temporary>
   </component>
