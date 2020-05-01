@@ -21,24 +21,20 @@ public class Coordinates {
     }
 
     public Coordinates moveNorth(){
-        int newC = y + 1;
-        y = newC;
+        y = ++y;
         return this;
     }
 
     public Coordinates moveEast(){
-        int newC = x + 1;
-        x = newC;
+        x =  ++x;
         return this;
     }
     public Coordinates moveSouth(){
-        int newC = y - 1;
-        y = newC;
+        y = --y;
         return this;
     }
     public Coordinates moveWest(){
-        int newC = x - 1;
-        x = newC;
+        x = --x;
         return this;
     }
 

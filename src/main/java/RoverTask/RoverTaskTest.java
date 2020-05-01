@@ -7,10 +7,10 @@ import org.junit.Test;
 public class RoverTaskTest {
 
 
-    RoverManipulationInterface roverManipulationInterface;
-    InstructionSenderInterface instructionSenderInterface;
-    Coordinates initialCoordinates;
-    Directions initialDirection;
+    private RoverManipulationInterface roverManipulationInterface;
+    private InstructionSenderInterface instructionSenderInterface;
+    private Coordinates initialCoordinates;
+    private Directions initialDirection;
 
 
     @Test
