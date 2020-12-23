@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c85574c5-debf-4f55-9745-7824f780f6e1" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RoverTask/Coordinates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RoverTask/Coordinates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RoverTask/RoverTaskTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RoverTask/RoverTaskTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +37,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="add_unversioned_files" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/RoverTask" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/ServiceLane" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -66,7 +64,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RoverTaskTest.firstTest">
+  <component name="RunManager" selected="JUnit.ServiceLaneTest">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -89,23 +87,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="EncryptionTask" />
       <option name="MAIN_CLASS_NAME" value="EncryptionTask.EncryptionTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RadioTransmittersTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HackerRankTasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="RadioTransmittersTask.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="RadioTransmittersTask" />
-      <option name="MAIN_CLASS_NAME" value="RadioTransmittersTask.RadioTransmittersTest" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -141,6 +122,22 @@
       <option name="MAIN_CLASS_NAME" value="RoverTask.RoverTaskTest" />
       <option name="METHOD_NAME" value="firstTest" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceLaneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HackerRankTasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ServiceLane.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ServiceLane" />
+      <option name="MAIN_CLASS_NAME" value="ServiceLane.ServiceLaneTest" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -188,19 +185,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.RadioTransmittersTest.test1" />
       <item itemvalue="JUnit.EncryptionTest.test1" />
       <item itemvalue="JUnit.TreesTests" />
       <item itemvalue="JUnit.RoverTaskTest.firstTest" />
       <item itemvalue="JUnit.RoverTaskTest" />
+      <item itemvalue="JUnit.ServiceLaneTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ServiceLaneTest" />
         <item itemvalue="JUnit.RoverTaskTest.firstTest" />
         <item itemvalue="JUnit.RoverTaskTest" />
         <item itemvalue="JUnit.TreesTests" />
         <item itemvalue="JUnit.EncryptionTest.test1" />
-        <item itemvalue="JUnit.RadioTransmittersTest.test1" />
       </list>
     </recent_temporary>
   </component>
