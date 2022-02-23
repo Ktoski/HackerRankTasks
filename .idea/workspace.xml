@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c85574c5-debf-4f55-9745-7824f780f6e1" name="Default" comment="service">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c85574c5-debf-4f55-9745-7824f780f6e1" name="Default" comment="gaming array task">
+      <change beforePath="$PROJECT_DIR$/src/main/java/GamingArray/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GamingArray/Result.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,11 +45,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Pawel1\IdeaProjects\HackerRankTasks\src\main\java\GamingArray" />
       <recent name="C:\Users\Pawel1\IdeaProjects\HackerRankTasks\src\main\java\ServiceLane" />
       <recent name="C:\Users\Pawel1\IdeaProjects\HackerRankTasks\src\main\java" />
       <recent name="C:\Users\Pawel1\IdeaProjects\HackerRankTasks\src\main\java\RoverTask" />
       <recent name="C:\Users\Pawel1\IdeaProjects\HackerRankTasks\src\main\java\EncryptionTask" />
-      <recent name="C:\Users\Pawel1\IdeaProjects\HackerRankTasks\src\main\java\RadioTransmittersTask" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -212,6 +212,14 @@
       <option name="presentableId" value="Default" />
       <updated>1558181564108</updated>
     </task>
+    <task id="LOCAL-00001" summary="gaming array task">
+      <created>1645642734694</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1645642734694</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -226,5 +234,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="gaming array task" />
+    <option name="LAST_COMMIT_MESSAGE" value="gaming array task" />
   </component>
 </project>

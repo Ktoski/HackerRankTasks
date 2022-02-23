@@ -41,5 +41,5 @@ class Result {
     private List<Integer> subArrayFrom(List<Integer> arr, int index) {
         return arr.subList(0, index);
     }
-    
+
 }
