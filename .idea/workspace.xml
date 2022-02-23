@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c85574c5-debf-4f55-9745-7824f780f6e1" name="Default" comment="">
+    <list default="true" id="c85574c5-debf-4f55-9745-7824f780f6e1" name="Default" comment="service">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,7 +37,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="add_unversioned_files" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/ServiceLane" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/GamingArray" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -45,11 +45,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Pawel1\IdeaProjects\HackerRankTasks\src\main\java\ServiceLane" />
+      <recent name="C:\Users\Pawel1\IdeaProjects\HackerRankTasks\src\main\java" />
       <recent name="C:\Users\Pawel1\IdeaProjects\HackerRankTasks\src\main\java\RoverTask" />
       <recent name="C:\Users\Pawel1\IdeaProjects\HackerRankTasks\src\main\java\EncryptionTask" />
       <recent name="C:\Users\Pawel1\IdeaProjects\HackerRankTasks\src\main\java\RadioTransmittersTask" />
-      <recent name="C:\Users\Pawel1\IdeaProjects\HackerRankTasks\src\main\java\LeaderBoardClimbing" />
-      <recent name="C:\Users\Pawel1\IdeaProjects\HackerRankTasks\src\main\java\ScheduleAndBreaksTask" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -64,7 +64,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ServiceLaneTest">
+  <component name="RunManager" selected="JUnit.Test.firstTest">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -73,23 +73,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EncryptionTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HackerRankTasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="EncryptionTask.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="EncryptionTask" />
-      <option name="MAIN_CLASS_NAME" value="EncryptionTask.EncryptionTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -143,6 +126,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test.firstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HackerRankTasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GamingArray.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="GamingArray" />
+      <option name="MAIN_CLASS_NAME" value="GamingArray.Test" />
+      <option name="METHOD_NAME" value="firstTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TreesTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HackerRankTasks" />
       <extension name="coverage">
@@ -185,19 +185,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.EncryptionTest.test1" />
       <item itemvalue="JUnit.TreesTests" />
       <item itemvalue="JUnit.RoverTaskTest.firstTest" />
       <item itemvalue="JUnit.RoverTaskTest" />
       <item itemvalue="JUnit.ServiceLaneTest" />
+      <item itemvalue="JUnit.Test.firstTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Test.firstTest" />
         <item itemvalue="JUnit.ServiceLaneTest" />
         <item itemvalue="JUnit.RoverTaskTest.firstTest" />
         <item itemvalue="JUnit.RoverTaskTest" />
         <item itemvalue="JUnit.TreesTests" />
-        <item itemvalue="JUnit.EncryptionTest.test1" />
       </list>
     </recent_temporary>
   </component>
